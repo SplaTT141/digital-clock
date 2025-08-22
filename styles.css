@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  background: url(./bg.jpg);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to left, #e57bf1c3, #8d41ffcb);
+  padding: 0 6rem 2rem 6rem;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.clock {
+  display: flex;
+  gap: 2rem;
+}
+
+.clock .hours,
+.clock .minutes,
+.clock .seconds {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  width: 80px;
+  height: 70px;
+  background-color: #e57bf1c3;
+  border-radius: 5px 5px 0 0;
+}
+
+.clock .text {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: #8d41ffcb;
+  border-radius: 0 0 5px 5px;
+}
